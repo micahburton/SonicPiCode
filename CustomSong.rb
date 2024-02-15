@@ -79,7 +79,7 @@ live_loop :main do
   sleep 1
 end
 
-sleep 4
+sleep 16
 
 live_loop :beat do
   sample :bd_tek
