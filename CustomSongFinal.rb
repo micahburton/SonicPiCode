@@ -1,18 +1,15 @@
 # Welcome to Sonic Pi
 use_bpm 160
 use_synth :bass_foundation
-i = 0
-j = 0
 amp = 0
-
-#Custom Song: 1985 by Bo Burnham
-#Sheet music source: https://musescore.com/user/43966751/scores/8282177
 i = 0
 j = 0
 amp2 = 0
 use_synth :bass_foundation
+#Custom Song 2: Don't Wanna Know by Bo Burnham
 #Sample Source: https://www.youtube.com/watch?v=_8uLs551BRk
 intro = "C:/Users/micah_burton/Downloads/KDFW-TV Dallas (Channel 4) 6pm News Open 1985.mp3"
+#Sample Source: https://www.youtube.com/watch?v=APGBRDeqsSI
 outro = "C:/Users/micah_burton/Downloads/welcomesample.mp3"
 noteArray = [:r, :c4, :d4, :f4, :g4, :f4, :r, :r, :g4, :a4, :g4, :r, :a4, :f4, :r, :r, :a4, :a4, :a4, :g4, :f4, :g4, :a4, :g4, :f4, :d4, :c4, :d4, :f4, :a4, :r]
 sleepTimes = [1, 0.5, 0.5, 0.5, 0.75, 1.25, 1, 0.25, 0.5, 0.5, 0.5, 0.375, 0.375, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1, 0.5]
@@ -74,6 +71,9 @@ live_loop :drums do
 end
 
 sleep 40
+
+#Custom Song: 1985 by Bo Burnham
+#Sheet music source: https://musescore.com/user/43966751/scores/8282177
 
 #measure 1
 live_loop :main do
